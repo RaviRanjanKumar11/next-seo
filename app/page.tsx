@@ -8,6 +8,7 @@ export default function Home({ Component, pageProps }: AppProps) {
     <>
       <DefaultSeo {...SEO} />
       <Component {...pageProps} />
+      <h5>NextJs SEO</h5>
     </>
   );
 }
